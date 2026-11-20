@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FINAL_PROJECT</title>
+    <title>Group Up Erie</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src ="script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
-<body>
-    
+<body class="min-h-screen flex flex-col bg-red-600 text-white">
+
+    <!-- Site header -->
+    <header class="bg-red-700 shadow-md">
+        <nav class="max-w-5xl mx-auto flex items-center justify-between px-4 py-4">
+            <a href="index.html" class="text-2xl font-bold tracking-tight">Group Up Erie</a>
+            <ul class="flex gap-6 text-sm font-medium">
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#groups" class="hover:underline">Groups</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main page content -->
+    <main class="flex-1 max-w-5xl w-full mx-auto px-4">
+
+        <section class="text-center py-16">
+            <h1 class="text-4xl font-extrabold mb-4">Welcome to Group Up Erie</h1>
+            <p class="text-lg text-red-100 max-w-xl mx-auto">
+                Find people, join groups, and get involved around Erie.
+            </p>
+            <a href="#groups"
+               class="inline-block mt-8 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-red-50">
+                Browse Groups
+            </a>
+        </section>
+
+        <section id="about" class="py-10 border-t-2 border-white/40">
+            <h2 class="text-2xl font-semibold mb-3">About</h2>
+            <p class="text-red-100">Our mission is to connect mainly college students in Erie, Pa so that they
+                may find others students with similar interests and hobbies. 
+                We want to help students find groups to join and make new friends in the process.
+            </p>
+        </section>
+
+        <section id="groups" class="py-10 border-t-2 border-white/40">
+            <h2 class="text-2xl font-semibold mb-6">Groups</h2>
+            <!-- fill this in with data from data.json in script.js -->
+            <div id="group-list" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+        </section>
+
+        <section id="contact" class="py-10 border-t-2 border-white/40">
+            <h2 class="text-2xl font-semibold mb-3">Contact</h2>
+            <p class="text-red-100">Add contact info here.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-red-700 text-center text-sm text-red-100 py-4">
+        &copy; 2026 Group Up Erie
+    </footer>
+
 </body>
 </html>

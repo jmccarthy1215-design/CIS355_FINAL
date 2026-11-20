@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "userID": 1,
+      "username": "jack_m",
+      "password": "password123",
+      "school": "Penn State Behrend"
+    },
+    {
+      "userID": 2,
+      "username": "sarah_k",
+      "password": "password123",
+      "school": "Gannon University"
+    },
+    {
+      "userID": 3,
+      "username": "mike_t",
+      "password": "password123",
+      "school": "Mercyhurst University"
+    },
+    {
+      "userID": 4,
+      "username": "emily_r",
+      "password": "password123",
+      "school": "Penn State Behrend"
+    }
+  ],
+  "groups": [
+    {
+      "groupID": 1,
+      "groupName": "Erie Pickup Basketball",
+      "description": "Casual pickup games for college students around Erie. All skill levels welcome.",
+      "area": "Erie, PA",
+      "latitude": 42.1292,
+      "longitude": -80.0851,
+      "createdBy": 1,
+      "members": [1, 2, 3, 4],
+      "dateCreated": "2026-11-20T12:00:00Z"
+    }
+  ]
+}
