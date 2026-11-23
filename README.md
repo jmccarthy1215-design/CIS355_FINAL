@@ -25,4 +25,13 @@ Users: userID, username, password, school.
 Posts: postId, userID, postText, area, latitude, longitude, dateCreated.
 Replies: replyID, postID, userID, replyText, dateCreated
 Votes: voteID, userID, postID, voteValue(upvote or downvote, +1 or -1)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+11/23/26 2:17pm:
+
+I added to the signup page (which will continue to just be a vague look at the home page but not as in depth)
+I added some comments so you will know which id's will link to what features but i think the only one i did so far is the X button on the signup page
+i already created the const for that and added the event listener to add hidden to the popup, check script.js
+I also linked the browse groups button to the second html file called home.html
+
+next thing im going to do (later) is find a database to use, not sure how to do that but ill learn how to set one up. google says to use MySQL. I will set that up and connect it soon.
